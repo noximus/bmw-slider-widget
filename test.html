@@ -1,0 +1,59 @@
+
+
+
+
+<!DOCTYPE html>
+<!-- 
+	This is Flowplayer standalone demo. The fastest way to get started. 
+	You can freely copy things on your site. All demos can be found from: 
+	
+	http://flowplayer.org/demos/
+	
+	Enjoy!
+-->
+
+<head>
+
+
+
+
+
+<!-- flowplayer scripts should be loaded from your servers NOT from static.flowplayer.org  -->
+
+<script type="text/javascript" src="http://static.flowplayer.org/js/flowplayer-3.2.6.min.js"></script>
+
+</head>
+
+
+<body>
+
+
+<!-- player container-->
+<a 
+	href="http://content.bmwusa.com/bmw_xp_qa/content/video/LandingPage/1500/1338_BMW_ActiveE_ALT.flv" 
+	style="display:block;width:425px;height:300px;" 
+	id="skinless">
+	
+	<!-- splash image inside the container -->
+	<img src="/img/home/flow_eye.jpg" alt="Search engine friendly content" />
+	
+</a>
+
+<!-- Flowplayer installation and configuration -->
+<script language="JavaScript">
+
+flowplayer("skinless", "http://releases.flowplayer.org/swf/flowplayer-3.2.7.swf", {
+
+	plugins: {
+		
+		// tube buttons (appr. 4kb)
+		tube: { 
+			url: "/swf/flowplayer.controls-tube-3.2.5.swf", 
+			type: "classLibrary" 
+		}
+	} 
+});
+</script>	
+</body>
+
+</html>

@@ -1,0 +1,329 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background:#fff;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+
+img {
+	border:none;
+}
+pre {
+	display:block;
+	padding:10px;
+	border:1px solid #bae2f0;
+	background:#e3f4f9;
+	margin:.5em 0;
+	width:674px;
+}
+/* image replacement */
+        .graphic, #prevBtn, #nextBtn {
+	margin:0;
+	padding:0;
+	display:block;
+	overflow:hidden;
+	text-indent:-8000px;
+}
+/* // image replacement */
+	#mainContainer {
+		width:757px;
+		height:425px;
+		background-image:url(http://content.bmwusa.com/microsite/efficiencydynamicsQA/images/img1.jpg);
+		position:relative;
+		margin:auto;
+		z-index:1;
+	}
+#slideContainerFooter {
+	background-image:url(http://content.bmwusa.com/microsite/efficiencydynamicsQA/images/navBg.png);
+	background-repeat:repeat;
+	width:757px;
+	height:56px;
+	position:absolute;
+	bottom:38px;
+	left:0px;
+	display:none;
+	z-index:15000;
+}
+#slideContainerClose {
+	background-image:url(http://content.bmwusa.com/microsite/efficiencydynamicsQA/images/navBg.png);
+	background-repeat:repeat;
+	width:757px;
+	height:28px;
+	position:absolute;
+	padding-top:10px;
+	left:0px;
+	bottom:0em;
+	z-index:15001;
+}
+
+	#container {
+	margin:0 auto auto 25px;
+	position:absolute;
+	text-align:left;
+	width:692px;
+	bottom:10px;
+	left:0px;
+	z-index:15004;
+	
+}
+#header {
+	height:80px;
+	background:#5DC9E1;
+	color:#fff;
+}
+#content {
+	position:relative;
+	z-index:15005;
+	
+}
+/* Easy Slider */
+
+	#slider {
+		z-index:15006;
+}
+#slider ul, #slider li {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#slider li {
+	/* 
+			define width and height of list item (slide)
+			entire slider area will adjust according to the parameters provided here
+		*/ 
+		width:117px;
+	height:74px;
+	overflow:hidden;
+}
+#prevBtn, #nextBtn {
+	display:none;
+	width:30px;
+	height:77px;
+	position:absolute;
+	left:-15px;
+	top:24px;
+}
+#nextBtn {
+	left:696px;
+}
+#prevBtn a, #nextBtn a {
+	display:block;
+	width:12px;
+	height:27px;
+	background:url(http://content.bmwusa.com/microsite/efficiencydynamicsQA/images/leftArrow.png) no-repeat 0 0;
+}
+#nextBtn a {
+	background:url(http://content.bmwusa.com/microsite/efficiencydynamicsQA/images/rightArrow.png) no-repeat 0 0;
+}
+.holder {
+	position:relative;
+	overflow:hidden;
+	z-index:15007;
+	
+}
+.imgExt {
+	position:absolute;
+	bottom:14px;
+	display:none;
+	cursor: pointer;
+	cursor: hand;
+	
+}
+.btnExt {
+	display:block;
+	position:absolute;
+	bottom:0px;
+	cursor: pointer;
+	cursor: hand;
+}
+.thumbNail {
+	float:left;
+}
+.divider {
+	height:74px;
+	float:left;
+	margin-left:107px;
+}
+.imgD {
+	height:18px;
+	margin-top:56px;
+}
+/* buttons*/
+#btn1 {
+	width:107px;
+	height:18px;
+	background-image:url(http://content.bmwusa.com/microsite/efficiencydynamicsQA/images/btn1.jpg)
+}
+
+#btn2 {
+	width:107px;
+	height:18px;
+	background-image:url(http://content.bmwusa.com/microsite/efficiencydynamicsQA/images/btn2.jpg)
+}
+
+#btn3 {
+	width:107px;
+	height:18px;
+	background-image:url(http://content.bmwusa.com/microsite/efficiencydynamicsQA/images/btn3.jpg)
+}
+
+#btn4 {
+	width:107px;
+	height:18px;
+	background-image:url(http://content.bmwusa.com/microsite/efficiencydynamicsQA/images/btn4.jpg)
+}
+
+#btn5 {
+	width:107px;
+	height:18px;
+	background-image:url(http://content.bmwusa.com/microsite/efficiencydynamicsQA/images/btn5.jpg)
+}
+
+#btn6 {
+	width:107px;
+	height:18px;
+	background-image:url(http://content.bmwusa.com/microsite/efficiencydynamicsQA/images/btn6.jpg)
+}
+
+#btn7 {
+	width:107px;
+	height:18px;
+	background-image:url(http://content.bmwusa.com/microsite/efficiencydynamicsQA/images/btn7.jpg)
+}
+
+#btn8 {
+	width:107px;
+	height:18px;
+	background-image:url(http://content.bmwusa.com/microsite/efficiencydynamicsQA/images/btn8.jpg)
+}
+/* case */
+#LeftNavMain {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 792px;
+}
+#LeftNavBodyLeft {
+	background: url("https://cache.bmwusa.com/image_42F7375C-AF1A-4F87-A887-2EE451F10A55.arox") repeat-y scroll 0 0 transparent;
+	float: left;
+	height: 100%;
+	width: 5px;
+}
+#LeftNavBodyCenter {
+	border: 0 none;
+	float: left;
+	height: auto !important;
+	margin: 0;
+	min-height: 350px;
+	padding: 0;
+}
+#LeftNavBodyRight {
+	background: url("https://cache.bmwusa.com/image_596450B9-C3AA-4A35-BF1A-932805B11CB3.arox") repeat-y scroll 0 0 transparent;
+	float: left;
+	height: 100%;
+	width: 5px;
+}
+#LeftNavBottom {
+	clear: both;
+	float: left;
+	height: 5px;
+	line-height: 5px;
+	margin: 0;
+	padding: 0;
+	width: 792px;
+}
+#LeftNavBottomLeft {
+    background: url("https://cache.bmwusa.com/image_a15020d0-5b32-44fb-bcbe-cc9c2e899523.arox") no-repeat scroll 0 -5px transparent;
+    float: left;
+    height: 5px;
+    width: 5px;
+}
+#LeftNavBottomCenter {
+	background: url("https://cache.bmwusa.com/image_B0A7A13C-3AC7-4A25-A85A-A47FE3C69731.arox") repeat-x scroll 0 0 transparent;
+	float: left;
+	height: 5px;
+	width: 782px;
+}
+#LeftNavBottomRight {
+	background: url("https://cache.bmwusa.com/image_a15020d0-5b32-44fb-bcbe-cc9c2e899523.arox") no-repeat scroll -5px -5px transparent;
+	float: left;
+	height: 5px;
+	width: 5px;
+}
+#LeftNavContent {
+	float: left;
+	margin: 0 12px;
+	overflow: hidden;
+	padding: 0;
+	width: 758px;
+}
+/* end case */
+.T2TCaPageHeading {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 18px;
+    margin: 4px 0 -1px;
+    padding: 0;
+    width: 758px;
+	text-align:left;
+}
+.T1TCaPageHeading {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+    margin: 4px 0 -1px;
+    padding: 0;
+    width: 758px;
+	text-align:left;
+}
+.T1PageText {
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 15px;
+    margin: 10px 0 -1px;
+    padding: 0;
+    width: 600px;
+	text-align:left;
+}
+.linkBmwButton {
+    background: url("https://cache.bmwusa.com/image_d65fade8-f88c-419a-a322-47e3b9283032.arox") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 22px;
+    padding: 4px 3px 3px 10px;
+    width: auto;
+}
+.linkBmwButtonEnd {
+    background: url("https://cache.bmwusa.com/image_d65fade8-f88c-419a-a322-47e3b9283032.arox") no-repeat scroll -330px 0 transparent;
+    float: left;
+    height: 22px;
+    min-width: 8px;
+    padding: 4px 0 3px;
+    width: 8px;
+}
+
+.jQueryBMWButton, .jQueryBMWButton:visited {
+	font-size: 11px;
+    background: url("https://cache.bmwusa.com/image_5a3cd5ee-78f5-4105-92cb-a75961eb5094.arox") no-repeat scroll 0 3px transparent;
+    color: #4C4C4E;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.jQueryBMWButton:hover, .jQueryBMWButton:active {
+    background-attachment: inherit;
+    background-color: inherit;
+    background-image: url("https://cache.bmwusa.com/image_5a3cd5ee-78f5-4105-92cb-a75961eb5094.arox");
+    background-position: 0 -54px;
+    background-repeat: no-repeat;
+    color: #003399;
+}
+.footnoteEff{
+    font-size: 7px;
+	color:#999999;
+    font-weight: normal;
+    line-height: 7px;
+    margin: 10px 0 -1px;
+    padding: 0;
+    width: 600px;
+}
